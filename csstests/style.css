@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(100, 148, 237, 0.704);
+}
+
+p{
+    background-color: blueviolet;
+}
+
+.box{
+    background-color: coral;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#three{
+    padding:20px;
+    margin-top: 50px;
+    border: cadetblue 5px dotted;
+}
+
+#two{
+    border: 2px black dashed;
+}
+
+#one p{
+    background-color: aqua;
+}
+
+#two p{
+    display: inline;
+}
+
+
+
+.column {
+    width: 30%;
+    height:50px;
+    display: inline-block;
+   background-color: aqua;
+}
+
+.column:hover{
+    background-color: blue;
+}
+
+p:hover{
+    font-family: 'Times New Roman', Times, serif;
+}
+#nine {
+    margin-left: 100px;
+    display:inline-block;
+}
+
+p: first-child{
+    font-weight: bolder;
+}

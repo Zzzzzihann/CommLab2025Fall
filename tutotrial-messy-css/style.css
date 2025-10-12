@@ -1,0 +1,38 @@
+p{
+    color:blue;
+    background-color: azure;
+}
+pre{
+    color:blueviolet;
+    font-weight:bold;
+    text-align: center;
+    text-transform: uppercase;
+    line-height:1.5;
+    letter-spacing: 2px;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+}
+span{
+    background-color:yellow;
+    margin-left:40px;
+    margin-right: 10px;
+    padding:10px;
+    border-color:black;
+    border-width: 1px;
+    border-style: solid;
+
+}
+#specialdiv1 {
+    background-color:burlywood;
+    padding:10px;
+    border:yellowgreen 10px dotted;
+    margin-bottom: 200px;
+}
+
+.highlight{
+    background-color: orange;
+}

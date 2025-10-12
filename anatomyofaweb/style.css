@@ -1,0 +1,47 @@
+.header{
+    padding: 5px;
+    margin-bottom: 1px;
+}
+
+#logo{
+    padding:10px;
+    margin-top:0.5px;
+    background-image: url("https://images.gc.evertonfcservices.co.uk/fit-in/1200x1200/682d5610-290d-11ef-bc91-995f283bd24c.webp");
+}
+
+#logo p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+}
+
+.headline{
+    height:620px;
+    width:auto;
+    background-image: url(https://images.gc.evertonfcservices.co.uk/fit-in/4800x4800/680d9910-290d-11ef-8c1f-0ba7da788ccd.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  
+    align-items: flex-start; 
+    text-align: left; 
+}
+
+#main {
+padding:20px;
+ border: 5px solid darkblue;
+}
+
+#main p{
+    text-align:start;
+    font-size: 40px;
+}
+
+#main img:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease;
+}
+

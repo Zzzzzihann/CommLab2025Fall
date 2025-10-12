@@ -1,0 +1,43 @@
+body{
+    background-color: blueviolet;
+    margin:0;
+}
+
+#main-wrapper{
+    width:100%;
+    max-width:600px;
+    height:100px;
+    background-color: palegoldenrod;
+    margin:auto;
+}
+#headline-wrapper{
+    height:50px;
+    width:100%;
+    background-color: yellowgreen;
+}
+
+#headline-wrapper h1{
+    text-align: center;
+}
+
+.nav-item{
+    width:24%;
+    height:50px;
+    display:inline-block;
+    background-color: aquamarine;
+}
+
+.nav-item p{
+    color:red;
+    text-align: center;
+    font-style: italic ;
+}
+
+#nav-wrapper{
+    text-align: center;
+    outline: 1px white solid;
+}
+
+.nav-item:hover{
+    background-color:yellowgreen;
+}
