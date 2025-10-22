@@ -1,0 +1,218 @@
+.top-nav {
+  background-color: #050644eb;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-nav .left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-nav .logo {
+  width: 40px;
+  height: auto;
+}
+
+.top-nav .center-links {
+  display: flex;
+  gap: 25px;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.top-nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.header {
+    height: 140px;
+    padding: 5px;
+    position: relative;
+    background-image: url("https://images.gc.evertonfcservices.co.uk/fit-in/1200x1200/682d5610-290d-11ef-bc91-995f283bd24c.webp");
+    background-position: center;
+}
+.header h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px yellow;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.header p{
+    position: absolute;
+    right: 35%;
+    top: 50%;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    text-shadow: 1px 1px 2px yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.headline{
+    height:700px;
+    padding:5px;
+    position:relative;
+    background-image: url("https://images.gc.evertonfcservices.co.uk/fit-in/4800x4800/680d9910-290d-11ef-8c1f-0ba7da788ccd.webp");
+    background-position: center;
+}
+
+#statement {
+    position: absolute;
+    top:8%;
+    left:8%;
+    width:890px;
+    height:auto;
+    border: 2px solid #0d0252;
+}
+
+#sidebar1 {
+    position: absolute;  
+    top: 8%;
+    left: 72%;
+    width: 300px;
+    height: auto;
+    border: 2px solid #0d0252;
+}
+
+#sidebar2 {
+    position: absolute;  
+    top: 38%;
+    left: 72%;
+    width: 300px;
+    height: auto;
+    border: 2px solid #0d0252;
+}
+
+#sidebar3 {
+    position: absolute;  
+    top: 68%;
+    left: 72%;
+    width: 300px;
+    height: auto;
+    border: 2px solid #0d0252;
+}
+
+#statement:hover {
+    transform:scale(1.01);
+    content:url("OfficialStatementTitle.png");
+}
+
+#sidebar1:hover {
+    transform:scale(1.01);
+    content:url("sidebar1.png");
+}
+
+#sidebar2:hover {
+    transform:scale(1.01);
+    content:url("sidebar2.png");
+}
+
+#sidebar3:hover {
+    transform:scale(1.01);
+    content:url("sidebar3.png");
+}
+
+.advertisement{
+    height:120px;
+    padding:5px;
+    background-color: #0d0252;
+    position:relative;
+}
+
+#ad{
+    position: absolute;  
+    left:22.5%;
+    width: auto;
+    height: 120px;
+    border: 2px solid #0d0252;
+}
+
+.teamnews{
+    height:450px;
+    padding:5px;
+    position:relative;
+    background-image: url("https://images.gc.evertonfcservices.co.uk/fit-in/4800x4800/eab208d0-290b-11ef-904f-53449e742b91.webp");
+    background-position: center;
+    display:flex;
+}
+
+.teamnews p{
+    position: relative;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.teamnews h1{
+    color:white;
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px yellow;
+    position: relative;
+    left:2%;
+}
+
+#news1{
+    position: absolute;  
+    top: 25%;
+    left: 2%;
+    width: 23%;
+    height: auto;
+    border: 2px solid #0d0252; 
+}
+
+#news2{
+    position: absolute;  
+    top: 25%;
+    left: 26%;
+    width: 23%;
+    height: auto;
+    border: 2px solid #0d0252; 
+}
+
+#news3{
+    position: absolute;  
+    top: 25%;
+    left: 50.5%;
+    width: 23%;
+    height: auto;
+    border: 2px solid #0d0252; 
+}
+
+#news4{
+    position: absolute;  
+    top: 25%;
+    right: 2%;
+    width: 23%;
+    height: auto;
+    border: 2px solid #0d0252; 
+} 
+
+#news1:hover{
+    filter:brightness(80%);
+    content:url(RaquinhoContract.png);
+}
+#news2:hover{
+    filter:brightness(80%);
+    content:url(Buffhound\'s\ Heroics:.png);
+}
+#news3:hover{
+    filter:brightness(80%);
+    content:url(Training\ Report:.png);
+}
+#news4:hover{
+    filter:brightness(80%);
+    content:url(Nuston\ Discusses.png);
+}
+

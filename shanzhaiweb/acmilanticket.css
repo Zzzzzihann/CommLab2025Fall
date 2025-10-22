@@ -1,0 +1,15 @@
+.header {
+    height: 140px;
+    padding: 5px;
+    position: relative;
+    background-image: url("https://images.gc.evertonfcservices.co.uk/fit-in/1200x1200/682d5610-290d-11ef-bc91-995f283bd24c.webp");
+    background-position: center;
+}
+.header h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px yellow;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+

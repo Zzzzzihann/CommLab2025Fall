@@ -1,0 +1,27 @@
+.nav{
+    display:flex;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    margin:20px;
+}
+
+.nav-section{
+    background-color:blue;
+}
+
+.nav-section p{
+    display:inline;
+    font-size:30px;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.item{
+ width:33%;
+ padding:10px;
+ box-sizing:border-box;
+ outline: 1px solid black;
+}
+
