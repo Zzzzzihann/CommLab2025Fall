@@ -37,6 +37,7 @@
 
 body{
     background-image: url("https://images.gc.evertonfcservices.co.uk/fit-in/4800x4800/680d9910-290d-11ef-8c1f-0ba7da788ccd.webp");
+    /* Photo Credit: Everton FC (https://www.evertonfc.com/) */
     background-size: cover;
     background-position: center;
     margin-bottom: 100px;
@@ -49,6 +50,7 @@ body{
     height: 140px;
     padding: 5px;
     background-image: url("https://images.gc.evertonfcservices.co.uk/fit-in/1200x1200/682d5610-290d-11ef-bc91-995f283bd24c.webp");
+    /* Photo Credit: Everton FC (https://www.evertonfc.com/) */
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -70,57 +72,70 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.mainphoto {
+.player-grid {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-    padding: 20px 40px;
-    margin-bottom: 10px;
-    max-width: 1100px;
-    margin:auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 10px 5px;
 }
 
-#text-left {
-    flex: 1;
-    max-width: 530px;
+.player-card {
+    width: 220px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
-#text-left p {
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 20px;
+.player-photo {
+    background-color: #0026ff;
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#text-left h1 {
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
+.player-photo img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.number {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 24px;
     color: darkblue;
-    text-shadow: 1px 1px 2px white;
-    line-height: 20px;
+    font-weight: bold;
 }
 
-#main {
-    flex-shrink: 0;
-    width: 720px;
-    height: auto;
-    border: 2px solid #0d0252;
+.player-info {
+    padding: 10px 15px;
+    text-align: left;
 }
 
-#text-center {
-    width: 100%;
-    max-width: 1300px;
-    margin: 1px auto;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 20px;
+.first-name {
+    margin: 0;
+    color: gray;
+    font-size: 14px;
 }
 
-#photo-center {
-    display: block;
-    margin: 40px auto;
-    width: 720px;
-    height: auto;
-    border: 2px solid #0d0252;
+.last-name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.position {
+    height: 100px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 12px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }

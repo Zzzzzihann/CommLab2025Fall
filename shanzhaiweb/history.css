@@ -1,0 +1,91 @@
+.top-nav {
+  background-color: #050644eb;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-nav .left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-nav .logo {
+  width: 40px;
+  height: auto;
+}
+
+.top-nav .center-links {
+  display: flex;
+  gap: 25px;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.top-nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+body {
+  background-image: url("TheDenArena.jpg");
+  /* Photo Credit:Buro Happold https://www.burohappold.com/projects/hill-dickinson-stadium/ */
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: lighten;
+  margin-bottom: 100px;
+}
+
+.main {
+  margin: 0px;
+}
+
+.header {
+  height: 140px;
+  padding: 5px;
+  background-image: url("https://images.gc.evertonfcservices.co.uk/fit-in/1200x1200/682d5610-290d-11ef-bc91-995f283bd24c.webp");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 4px yellow;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.header h2 {
+  font-size: 20px;
+  color: aliceblue;
+  text-shadow: 1px 1px 2px yellow;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.transbox {
+  max-width: 1100px; 
+  margin: 80px auto; 
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(46, 45, 45);
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.transbox p{
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.8;
+}
