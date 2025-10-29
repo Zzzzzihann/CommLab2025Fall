@@ -129,7 +129,7 @@ Thirdly, I’ve cited all the photos I used in the code’s notes — applause t
 
 Last but not least, here are the references and resources I consulted while working on my code:
 
-* MDN Web Docs (Mozilla Developer Network): [``border-radius``](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius), [``overflow``](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow) and  [``overflow``](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit).
+* MDN Web Docs (Mozilla Developer Network): [``border-radius``](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius), [``overflow``](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow) and  [``object-fit``](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit).
 
 * W3Schools: [``background-blend-mode``](https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-blend-mode&preval=lighten) and how to have text in transparent box by adjusting [opacity](https://www.w3schools.com/css/css_image_transparency.asp).
 
