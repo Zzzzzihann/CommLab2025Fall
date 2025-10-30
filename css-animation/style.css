@@ -1,0 +1,73 @@
+body{
+     background-color: darkkhaki;
+}
+
+.box{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    /* transform: rotate(20deg); */
+    /* transition: background-color 5s ease-in; */
+    transition: all 5s ease-in;
+}
+
+p {
+    transition: background-color 5s ease-in;
+}
+
+.g{
+    display: inline-block;
+    transform: rotate(20deg);
+    transition: transform 1s linear;
+}
+
+.g:hover {
+    background-color: black;
+}
+
+.box2 {
+    width:90px;
+    height:50px;
+    border: 1px solid white;
+}
+
+.box2:nth-child(odd){
+    font-family:Arial, Helvetica, sans-serif;
+    color:brown
+}
+
+.box2:nth-child(6n){
+    text-decoration: underline;
+}
+
+@keyframes fly {
+  from { 
+    transform: translateY(0); 
+
+}
+  to   { 
+    transform: translateY(-20px); 
+}
+}
+
+.box2:nth-child(4){
+    animation: fly 2s ease-in infinite alternate;
+}
+
+
+@keyframes sink {
+  from { 
+    transform: translateY(0px); 
+
+}
+  to   { 
+    transform: translateY(20px) rotate(360deg); 
+}
+}
+
+.b{
+    display:inline-block;
+    animation: sink 2s ease-in infinite alternate;
+}
+

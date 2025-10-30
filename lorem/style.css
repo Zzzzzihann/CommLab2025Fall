@@ -1,0 +1,107 @@
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-image:url(dark-halloween-background-with-glowing-halloween-pumpkins-picjumbo-com.jpeg);
+  background-size:cover;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  color:aliceblue;
+}
+
+.lorem {
+  display: flex;
+  width: 250px;
+  justify-content: flex-start;
+  text-align: left;           
+  border: 4px solid black;
+  padding: 40px;            
+  box-sizing: border-box;
+  background-color: rgb(172, 2, 2);
+  animation: fall 10s ease-out both infinite;
+}
+
+.i {
+  display: inline-block;
+  animation: spin 2s linear infinite;
+}
+
+.i:nth-child(even) { color: rgb(240, 134, 99); }
+.i:nth-child(odd) { color: rgb(15, 230, 245); }
+/* .i:nth-child(n4) { color: rgb(153, 240, 99); } */
+
+.o:nth-child(even) { color: rgb(240, 214, 99); }
+.o:nth-child(odd) { color: rgb(253, 73, 235); }
+/* .o:nth-child(2n)  {transform: ;} */
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.o {
+  display: inline-block;
+  animation: jump 0.8s linear infinite;
+}
+
+.o:nth-child(2n) {
+  display: inline-block;
+  animation: jump2 0.8s linear infinite;
+}
+
+@keyframes jump {
+  from { transform: translateY(-5px); }
+  to { transform: translateY(0px); }
+}
+@keyframes jump2 {
+  from { transform: translateY(-5px) scale(5); }
+  to { transform: translateY(0px) scale(5); }
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0px); 
+  }
+  5% {
+    transform: translateY(450px);
+  }
+  10% {
+    transform: translateY(350px);
+  }
+  15% {
+    transform: translateX(200px);
+  }
+  20% {
+    transform: translateX(450px);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  30% {
+    transform: rotate(900deg);
+  }
+  50%{
+    transform: translateY(1000px);
+}
+    60% {
+    transform: rotate(900deg);
+  }
+    80% {
+    transform: scale(1.25);
+  }
+   90% {
+    transform: skew(30deg, 20deg);
+  }
+   95% {
+    transform: skew(20deg, 30deg);
+  }
+}
+
+.lorem:hover{
+    background-color: darkred;
+    content:url("https://media.vanityfair.com/photos/59b00a448f880b1dd8acba4a/1:1/w_1029,h_1029,c_limit/IT-Movie-Review.jpg");
+}
