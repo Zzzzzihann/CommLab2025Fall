@@ -1,0 +1,10 @@
+#container{
+ width: 480px;
+ height: 500px;
+ background-color: lightsalmon;
+ transition: transform 2s ease-out;
+}
+
+.move{
+    transform: translate(100px,0px);
+}
