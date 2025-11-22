@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/js-time-conditions"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CommLab2025Fall"
+	}
+}
