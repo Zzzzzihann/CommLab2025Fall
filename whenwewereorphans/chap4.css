@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    background-image: url(DetectiveBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: OldTypewriter, serif;
+    color:azure;
+}
+
+@font-face {
+    font-family: "OldTypewriter";
+    src: url(OldNewspaperTypes.ttf);
+}
+
+@font-face {
+    font-family: "MomTypewriter";
+    src: url(MomTypewriter.ttf);
+}
+
+.scrollWrap{
+    padding-top:10vh;
+    padding-bottom:20vh; 
+}
+
+.line{
+    opacity:0;
+    transform:translateY(40px);
+    transition:1.6s;
+    font-size:20px;
+    text-align:center;
+    margin:35vh 0; 
+}
+
+.choices{
+    opacity:0;
+    text-align:center;
+    transition:2s;
+    margin-bottom:200px;
+}
+
+button{ 
+    margin:0 18px; 
+    padding:12px 28px; 
+    font-size:18px; 
+    font-family: MomTypewriter;
+    border:1px solid #c9ad7d; 
+    background:none; 
+    color:#e6d8b8; 
+    cursor:pointer; 
+    transition:.35s ease; 
+} 
+
+button:hover{ 
+    background:#c9ad7d; 
+    color:#111; 
+}

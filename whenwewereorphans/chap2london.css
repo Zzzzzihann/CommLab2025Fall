@@ -1,0 +1,131 @@
+body{
+    background-color: #ceb690;
+}
+
+p{
+    color:#39281d;  
+}
+#header{
+    height: 200px;
+    padding: 5px;
+    position: relative;
+    background-position: center;
+}
+#header h1{
+
+    /* Found the font here: https://www.fontspace.com/category/new-york-times */
+    /* Found the tutorial here: https://www.reddit.com/r/HTML/comments/10vxo97/adding_a_new_font_to_my_html_file_newbie_here/ */
+    font-size: 50px;
+    color: rgb(50, 7, 7);
+    text-align: center;
+    font-family: Chomsky;
+}
+
+@font-face {
+    font-family: "Chomsky";
+    src: url(Chomsky-8MOa2.otf);
+}
+@font-face {
+    font-family: "Caslon";
+    src: url(LibreCaslonText-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Garamond";
+    src: url(EBGaramond-Medium.ttf);
+}
+
+@font-face {
+    font-family: "OldTypewriter";
+    src: url(OldNewspaperTypes.ttf);
+}
+
+@font-face {
+    font-family: "MomTypewriter";
+    src: url(MomTypewriter.ttf);
+}
+
+.newspaper{
+    width:78%;
+    margin: 40px auto;
+    display:flex;
+    justify-content:space-between;
+    gap:45px;
+}
+
+.left{
+    width:40%;
+}
+.familyPhoto{
+    width:100%;
+}
+.caption{
+    font-size:14px;
+    opacity:.6;
+    margin-top:6px;
+    text-align:center;
+    font-family: MomTypewriter;
+    color: #2b1a13; 
+}
+
+.right{
+    width:55%;
+    font-family:MomTypewriter;
+    font-size:15px;
+    line-height:1.62;
+    text-align:justify;
+}
+
+
+.right h2{
+    font-size:27px;
+    margin-bottom:10px;
+    font-weight:600;
+    font-family: MomTypewriter;
+}
+
+.paperline{
+    width:75%;
+    margin:5px auto 30px auto;
+    border:0;
+    border-top:1px solid rgba(0,0,0,.4);
+    opacity:.8;
+}
+
+
+#dateTag{
+    text-align:left;
+    margin-top:45px;
+    opacity:0.03;
+    font-size:15px;
+    color: #2b1a13; 
+    font-family: MomTypewriter;
+     cursor: help;
+}
+#dateTag:hover{
+    transition: .1s ease;
+    opacity:0.2;
+    cursor: help;
+}
+
+#dateTag1{
+    text-align:center;
+    margin-top:1px;
+    opacity:.7;
+    font-size:15px;
+    font-family: Chomsky;
+}
+
+a.link {
+    text-decoration: none; 
+    color: #ceb690;  
+    font-weight: 500;    
+    transition: .25s ease;
+    cursor:help;
+}
+
+a.link:hover {
+    color: #2b1a13;     
+    /* border-bottom: 1px solid #4a2b18;  */
+}
+

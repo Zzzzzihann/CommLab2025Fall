@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    background-image:url("https://www.pbsamerica.co.uk/wp-content/uploads/2021/08/3-1930s-Shanghai-riverfront-855x480.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: MomTypewriter;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.stage{
+    text-align:center;
+}
+
+button{
+    padding:10px 20px;
+    font-size:18px;
+    border:1px solid #000;
+    background:rgba(255,255,255,.6);
+    cursor:pointer;
+    transition:.3s ease-in-out;
+    font-family: MomTypewriter;
+    border-radius: 20px;
+}
+
+button:hover{
+    background:black;
+    color:white;
+}
+
+@font-face {
+    font-family: "OldTypewriter";
+    src: url(OldNewspaperTypes.ttf);
+}
+
+@font-face {
+    font-family: "MomTypewriter";
+    src: url(MomTypewriter.ttf);
+}

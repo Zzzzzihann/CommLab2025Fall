@@ -1,0 +1,190 @@
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    font-family: "EB Garamond", serif;
+}
+
+.container{
+    display:flex;
+    width:100vw;
+    height:100vh;
+}
+
+.leftPanel, .rightPanel{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    padding:30px;
+    border:1px solid rgba(255,255,255,0.15);
+}
+
+.leftPanel h2,.rightPanel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.enterImg {
+    height: 80vh;
+    width: auto;
+    display: block;
+    cursor: help;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+.enterImg:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.rightPanel p {
+    max-width: 70%;
+    text-align: center;
+    line-height: 1.5;
+    transition: 0.3s;
+    text-decoration: underline;
+    /* overflow-y: auto; */
+}
+
+.rightPanel p:hover {
+    transform: scale(1.02);
+}
+
+#cathayText1 {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 70%;
+    cursor: help;
+}
+
+#cathayText2 {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 70%;
+    color: aqua;
+    cursor: help;
+}
+
+#cathayText3 {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 70%;
+    color: orange;
+    cursor: help;
+}
+
+
+#oldHouseVisit {
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 20px;
+}
+.subPanelLeft1 {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    padding:30px;
+} 
+
+.subPanelLeft1 p{
+    color:aqua;
+}
+
+#oldServant1 p{
+    color:red;
+}
+
+#oldServant2 p{
+    color:green;
+}
+
+#oldServant3 p{
+    color:violet;
+}
+
+
+#warlord {
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 20px;
+} 
+
+.subPanelLeft2 {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    padding:30px;
+} 
+
+.subPanelLeft2 p{
+    color:aqua;
+}
+
+#warlord1 p{
+    color:red;
+}
+
+#warlord2 p{
+    color:green;
+}
+
+#warlord3 p{
+    color:violet;
+}
+
+#wangKu1 {
+    height: 40vh;
+    width: auto;
+    display: block;
+    cursor: help;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+#wangKu2 {
+    height: 43vh;
+    width: auto;
+    display: block;
+    cursor: help;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    transition: 0.25s;
+}
+
+#wangKu3 {
+    height: 46vh;
+    width: auto;
+    display: block;
+    cursor: help;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    transition: 0.2s;
+}
+
+#wangKu4 {
+    height: 49vh;
+    width: auto;
+    display: block;
+    cursor: help;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    transition: 0.1s;
+}

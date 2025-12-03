@@ -1,0 +1,66 @@
+body{
+    background:#d8c7a3;
+    font-family:"OldTypewriter", serif;
+    padding:50px;
+}
+
+.fileContainer{
+    width:65%;
+    margin:auto;
+    background:rgba(255,255,230,.6);
+    padding:40px 50px;
+    border:1px solid rgba(0,0,0,.3);
+    /* Box Shadow Tutorial: https://www.w3schools.com/css/css3_shadows_box.asp */
+    box-shadow:0px 3px 15px rgba(0,0,0,.25);
+}
+
+.title{
+    font-family:"MomTypewriter";
+    font-size:32px;
+    margin-bottom:8px;
+}
+
+.number{
+    opacity:.6;
+    font-size:14px;
+}
+
+.returnLink{
+    text-decoration:none;
+    color:#47321e;
+}
+.returnLink:hover{
+    text-decoration:underline;
+}
+
+@font-face {
+    font-family: "Chomsky";
+    src: url(Chomsky-8MOa2.otf);
+}
+@font-face {
+    font-family: "Caslon";
+    src: url(LibreCaslonText-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Garamond";
+    src: url(EBGaramond-Medium.ttf);
+}
+
+@font-face {
+    font-family: "OldTypewriter";
+    src: url(OldNewspaperTypes.ttf);
+}
+
+@font-face {
+    font-family: "MomTypewriter";
+    src: url(MomTypewriter.ttf);
+}
+
+.archiveImg{
+    width:32%;
+    margin:18px auto 28px auto;
+    display:flex;
+    border:1px solid rgba(0,0,0,.30);
+    box-shadow:0px 3px 8px rgba(0,0,0,0.28);
+}
